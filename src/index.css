@@ -95,7 +95,7 @@ ul.guessBox li {
 }
 
 #count {
-	color: #f39c12;
+	color: #394264;
 	font-weight: 700;
 	font-size: 1.5em;
 }
@@ -118,7 +118,56 @@ ul.guessBox li {
     white-space: pre-wrap;
 }
 
+button.guessing, button.info {
+    border: none;
+    padding: .25em .5em;
+    font-size: 1.15em;
+    font-family: 'Jaldi', sans-serif;
+    width: 28%;
+    background-color: #7f8790;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: .25em;
+    font-size: 1.25em;
+}
 
+button.info {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
+button.info.left{
+    background-color: #798ea5;
+    float: left;
+    box-shadow: -2px -2px 7px #33404e;
+}
+
+button.info.right{
+    background-color: #798ea5;
+    float: right;
+    box-shadow: 2px -2px 7px #33404e;
+}
+
+button.info:hover{
+    background-color:#a54949;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+}
+
+button.guessing:hover {
+    background-color: black;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+}
+
+button:focus{
+	border: 0px;
+	outline: none;
+}
 
 
 
