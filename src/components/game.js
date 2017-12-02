@@ -44,10 +44,10 @@ export default class Game extends React.Component {
 
 		let feedback;
 
-		if (distance >= 40) {
+		if (distance >= 50) {
 			feedback = 'Brrr...Ice Cold';
 		}
-		else if (distance >= 25) {
+		else if (distance >= 30) {
 			feedback = 'Rather Chilly!';
 		}
 		else if (distance >= 10) {
