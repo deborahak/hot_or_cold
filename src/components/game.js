@@ -35,7 +35,7 @@ export default class Game extends React.Component {
 		console.log(guess);
 		if (isNaN(guess)) {
 			this.setState({
-				feedback: 'You must enter a valid number'
+				feedback: 'You must enter a valid number.'
 			});
 			return;
 		}
