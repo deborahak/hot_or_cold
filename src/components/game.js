@@ -15,7 +15,7 @@ export default class Game extends React.Component {
 		this.state={
 			user_guess: [],
 			rightAnswer: Math.floor(Math.random() * 100) + 1,
-			feedback: 'Pick a number!',
+			feedback: 'Pick a number!!',
 			count: 0
 		};
 		console.log(this.state.rightAnswer);
